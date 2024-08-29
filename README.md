@@ -13,3 +13,14 @@ date = input("Enter Date : ")
 letter = letter.replace("<|Name|>",name)
 letter = letter.replace("<|Date|>",date)
 print(letter)
+
+#How to find space in strings
+st = "I hope this message finds you well  and in great spirits."
+
+doublespace = st.find("  ")
+print(doublespace)
+
+#how to replace double spaces from single space
+st = "I hope this  message finds you well  and in great  spirits."
+replace = st.replace("  "," ")
+print(replace)  
