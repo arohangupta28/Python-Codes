@@ -39,3 +39,25 @@ print(doublespace)
 st = "I hope this  message finds you well  and in great  spirits."
 replace = st.replace("  "," ")
 print(replace)  
+
+# All list methods
+l1 = [1,8,7,2,21,15]
+# sorting the list
+l1.sort()
+print(l1)
+# reversing the list
+l1.reverse()
+print(l1)
+# append add's something at the end of the list 
+l1.append(45)
+l1.append(95)
+print(l1)
+#insert
+l1.insert(2,54)
+print(l1)
+# pop
+l1.pop(2)
+print(l1)
+# remove
+l1.remove(21)
+print(l1)
